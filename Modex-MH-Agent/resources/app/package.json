@@ -1,0 +1,8 @@
+{
+  "name": "modex-mh-agent",
+  "version": "1.0.0",
+  "description": "Modex-MH-Agent 桌面版 — AI 科研助手",
+  "main": "main.js",
+  "author": "明珩科技",
+  "license": "MIT"
+}

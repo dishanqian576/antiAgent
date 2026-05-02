@@ -1,0 +1,45 @@
+# Runtime environment (Python, Node, Git, draw.io, TeX etc.)
+Modex-MH-Agent/runtime/
+
+# Electron binaries and framework files
+*.exe
+*.dll
+*.pak
+*.dat
+*.bin
+*.so
+*.dylib
+*.pyd
+
+# Electron framework
+Modex-MH-Agent/chrome_*.pak
+Modex-MH-Agent/icudtl.dat
+Modex-MH-Agent/snapshot_blob.bin
+Modex-MH-Agent/v8_context_snapshot.bin
+Modex-MH-Agent/vk_swiftshader*
+Modex-MH-Agent/vulkan-1.dll
+Modex-MH-Agent/locales/
+Modex-MH-Agent/LICENSE.electron.txt
+Modex-MH-Agent/LICENSES.chromium.html
+Modex-MH-Agent/uninstallerIcon.ico
+
+# node_modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+out/
+*.pyc
+__pycache__/
+
+# Workbuddy internal
+.workbuddy/memory/
